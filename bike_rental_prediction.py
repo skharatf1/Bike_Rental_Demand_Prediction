@@ -1,5 +1,5 @@
 import pandas as pd
-data = pd.read_csv('SeoulBikeData.csv', encoding = 'ISO-8859-1')
+data = pd.read_csv('MumbaiBikeData.csv', encoding = 'ISO-8859-1')
 
 data['Date'] = pd.to_datetime(data['Date'], format='%d/%m/%Y')
 
